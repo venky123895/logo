@@ -1,0 +1,23 @@
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.nav ul{
+    display: flex;
+    gap: 20px;
+}
+.nav ul li{
+    font-size: 1.3rem;
+    list-style-type: none;
+    cursor: pointer;
+}
+.nav ul li:hover{
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
